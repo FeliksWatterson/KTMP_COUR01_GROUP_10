@@ -1,0 +1,13 @@
+package com.KTMP_COUR01_GROUP_6.web_ban_hang;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class WebBanHangApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
