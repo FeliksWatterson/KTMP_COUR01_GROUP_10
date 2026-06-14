@@ -540,7 +540,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header-logo img {
-  height: 55px;
+  height: 80px;
   width: auto;
   object-fit: contain;
 }
@@ -998,7 +998,9 @@ body::-webkit-scrollbar-thumb:hover {
   height: auto;
   background: #fff;
   box-sizing: border-box;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .category-item:hover {
@@ -2962,7 +2964,9 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 10px 15px;
   z-index: 9999;
   transform: translateX(calc(-100% - 40px));
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease;
+  transition:
+    transform 0.5s ease-in-out,
+    opacity 0.5s ease;
   opacity: 0;
 }
 
@@ -3040,7 +3044,9 @@ body::-webkit-scrollbar-thumb:hover {
   text-align: center;
   display: none;
   opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 .global-modal-content.active {
   display: block;
