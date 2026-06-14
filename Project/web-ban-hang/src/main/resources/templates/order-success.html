@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Đặt Hàng Thành Công - Mộc E-commerce</title>
+    <title>Đặt Hàng Thành Công - Lumor Studio</title>
     <link
       rel="shortcut icon"
       th:href="@{/images/logo/favicon.svg}"
@@ -100,7 +100,7 @@
             <ion-icon name="checkmark-circle-outline"></ion-icon>
           </div>
           <h2>Đặt Hàng Thành Công!</h2>
-          <p>Cảm ơn bạn đã mua hàng tại Mộc E-commerce.</p>
+          <p>Cảm ơn bạn đã mua hàng tại Lumor Studio.</p>
           <p>
             Mã đơn hàng của bạn là:
             <strong class="order-id" th:text="'#' + ${order.id}">#12345</strong>
@@ -109,7 +109,7 @@
             <a th:href="@{/}" class="btn-continue">Tiếp tục mua sắm</a>
             <a
               th:href="@{/account}"
-              onclick="sessionStorage.setItem('showSection', 'orderHistory');"
+              onclick="sessionStorage.setItem('showSection', 'orderHistory')"
               class="btn-view-order"
               >Xem lịch sử đơn hàng</a
             >

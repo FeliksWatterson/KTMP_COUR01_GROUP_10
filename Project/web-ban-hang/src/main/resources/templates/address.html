@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sổ địa chỉ - Mộc E-commerce</title>
+    <title>Sổ địa chỉ - Lumor Studio</title>
     <link
       rel="shortcut icon"
       th:href="@{/images/logo/favicon.svg}"
@@ -298,7 +298,9 @@
                     th:action="@{/account/address/delete/{id}(id=${address.id})}"
                     method="post"
                     th:unless="${address.default}"
-                    onsubmit="return confirm('Bạn có chắc chắn muốn xóa địa chỉ này?');"
+                    onsubmit="
+                      return confirm('Bạn có chắc chắn muốn xóa địa chỉ này?');
+                    "
                   >
                     <button
                       type="submit"
@@ -336,7 +338,9 @@
                   <li>
                     <a
                       th:href="@{/account}"
-                      onclick="sessionStorage.setItem('showSection', 'orderHistory');"
+                      onclick="
+                        sessionStorage.setItem('showSection', 'orderHistory')
+                      "
                     >
                       <ion-icon name="document-text-outline"></ion-icon>
                       <span>Lịch sử đơn hàng</span>
@@ -351,7 +355,10 @@
                   <li>
                     <a
                       href="#"
-                      onclick="confirmAccountDeletion(); return false;"
+                      onclick="
+                        confirmAccountDeletion();
+                        return false;
+                      "
                     >
                       <ion-icon name="trash-outline"></ion-icon>
                       <span>Xóa tài khoản</span>
