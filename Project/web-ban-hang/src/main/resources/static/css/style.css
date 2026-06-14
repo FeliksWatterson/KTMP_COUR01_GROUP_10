@@ -844,6 +844,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .banner {
   margin: 30px 0;
+  margin-bottom: 50px;
 }
 
 .slider-container {
