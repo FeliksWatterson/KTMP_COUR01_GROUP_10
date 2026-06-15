@@ -1,5 +1,5 @@
 # Nhóm 10: Xây dựng website Thương mại điện tử Lumor Studio - Nội thất và Decor
-# Link online: 
+# Link online: https://lumor-499510.as.r.appspot.com/
 
 ## Thành viên Nhóm 10
 
